@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35027.167
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "assignment", "assignment\assignment.csproj", "{655F7A7C-72B0-4481-B963-30F45DD3C413}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XmLTOJson", "assignment\XmLTOJson.csproj", "{655F7A7C-72B0-4481-B963-30F45DD3C413}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xmltobj", "xmltobj\xmltobj.csproj", "{162A36C6-609D-4414-B30B-24DD2C9930E1}"
 EndProject

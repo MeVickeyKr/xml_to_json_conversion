@@ -1,5 +1,5 @@
 ﻿using System;
-using Xml2CSharp;
+using Xml2Obj;
 using System.Xml.Serialization;
 using System.IO;
 using Newtonsoft.Json;
@@ -7,7 +7,7 @@ using Newtonsoft;
 
 namespace assignment
 {
-    public class XmltoJsonConvertor <T>  where T : class
+    public class ObjtoJsonConvertor <T>  where T : class
     {
          
        static T encode;

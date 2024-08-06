@@ -6,7 +6,10 @@ using System.Text;
 using System.Xml;
 using Newtonsoft.Json;
 using Newtonsoft;
-namespace Xml2CSharp
+
+
+namespace Xml2Obj
+
 {
     [Serializable]
     [XmlRoot(ElementName = "ADDITIONAL_FIELDS")]
