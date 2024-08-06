@@ -1,7 +1,7 @@
 ﻿using System;
 using System.IO;
 using System.Xml.Serialization;
-using Xml2CSharp;
+using Xml2Obj;
 using System.Text.Json;
 using Newtonsoft.Json;
 
@@ -13,9 +13,9 @@ namespace assignment
         static void Main()
         {
 
-            XmltoJsonConvertor <INFORMATION> xtj = new XmltoJsonConvertor <INFORMATION> ();
-            XmltoJsonConvertor<INFORMATION>.ChangeTOObj(@"C:\assignmentfolder1\assignment.xml");
-            XmltoJsonConvertor<INFORMATION>.ConvertTOJson(@"C:\assignmentfolder1\assignment.json");
+            ObjtoJsonConvertor <INFORMATION> xtj = new ObjtoJsonConvertor <INFORMATION> ();
+            ObjtoJsonConvertor<INFORMATION>.ChangeTOObj(@"C:\assignmentfolder1\assignment.xml");
+            ObjtoJsonConvertor<INFORMATION>.ConvertTOJson(@"C:\assignmentfolder1\assignment.json");
 
             Console.ReadKey();
         }
